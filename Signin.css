@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+        url("./img/header-image.png");
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    /* background-size: cover;
+    background-position: center; */
+    /* position: fixed; */
+    padding: 20px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.Login-in {
+    width: 450px;
+    height: 600px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.Login-in .content{
+    margin: 10%;
+}
+.Login-in .content h2{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+}
+.Login-in .content .form{
+    padding:20px ;
+    padding-bottom: 0px;
+}
+.Login-in .content .form input{
+    width: 100%;
+    font-size:20px ;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+    color: white
+
+}
+.Login-in .content .form input:hover{
+    border: none;
+}
+.Login-in .content .form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.Login-in .content .con{
+
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.Login-in .content  p {
+    font-size: 14px;
+    padding: 20px;
+    padding-top: 10px;
+    color: rgb(137, 137, 137);
+}
+.Login-in .content a{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+.Login-in .content .con1 p{
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.Login-in .content .con1 .p{
+    font-size: 10px;
+}
+.Login-in .content .con1 .a {
+    color: white;
+}
+.Login-in .content .con1 a{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    color: #5b5b5b;
+    background-color:rgba(0 0 0 0.9);
+
+}
+
+footer .line {
+    border: 5px solid rgb(29, 29, 29);
+    margin-top: 80px;
+}
+
+footer .col1 {
+    padding: 50px 15% 10px;
+}
+
+footer h2 {
+
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+footer .row {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+footer .row a {
+    display: block;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
